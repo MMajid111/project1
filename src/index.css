@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Add these theme-related styles */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: #1B2431;
+  color: white;
+}
+
+select::-ms-expand {
+    display: none;
+}
+  
